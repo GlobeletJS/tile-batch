@@ -1,6 +1,6 @@
 {
   "name": "tile-batch",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Data serializers and WebGL renderers for tiled layers in vector maps",
   "module": "dist/index.js",
   "files": [
