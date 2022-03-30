@@ -1,0 +1,43 @@
+{
+  "name": "tile-batch",
+  "version": "0.0.0",
+  "description": "Data serializers and WebGL renderers for tiled layers in vector maps",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "build": "rollup -c build/rollup.config.js",
+    "test": "npm run lint",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlobeletJS/tile-batch.git"
+  },
+  "keywords": [
+    "vector",
+    "tile",
+    "tileset",
+    "map",
+    "javascript",
+    "webgl"
+  ],
+  "author": "Jeshurun Hembd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GlobeletJS/tile-batch/issues"
+  },
+  "homepage": "https://github.com/GlobeletJS/tile-batch#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "eslint": "^8.12.0",
+    "eslint-config-globeletjs": "^0.0.6",
+    "rollup": "^2.70.1"
+  },
+  "dependencies": {
+    "tile-gl": "file:../tile-gl"
+  },
+  "sideEffects": false
+}
