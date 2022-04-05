@@ -752,6 +752,7 @@ function initTilesetPainter(layer, context, fbSize) {
     // Draw tiles. Split into subsets if they are repeated across antimeridian
     antiMeridianSplit(tileset).forEach(subset => drawSubset(subset, pixRatio));
   }
+
   function drawSubset(tileset, pixRatio = 1) {
     const { 0: { x, y }, translate, scale: rawScale } = tileset;
     const scale = rawScale * pixRatio;
