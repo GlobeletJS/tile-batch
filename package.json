@@ -48,6 +48,6 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "tile-gl": "github:GlobeletJS/tile-gl#single-tile"
+    "tile-gl": "^0.5.0"
   }
 }
