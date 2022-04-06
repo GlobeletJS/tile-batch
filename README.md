@@ -13,14 +13,9 @@ tile-batch exposes two methods:
 - initGLpaint: Wrap a WebGL context with methods to load the buffers to the
   GPU, and to construct renderers for [MapLibre style layers][MapLibre]
 
-See a simple [example][] of tile-gl rendering vector tile data following a
-style from [OpenMapTiles][]
-
 [tile-gl]: https://github.com/GlobeletJS/tile-gl/
 [d3-tile]: https://github.com/d3/d3-tile
 [MapLibre]: https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/
-[example]: https://globeletjs.github.io/tile-batch/examples/maptiler-basic/index.html
-[OpenMapTiles]: https://openmaptiles.org/styles/
 
 ## initSerializer
 Initializes a geometry serializer, to parse GeoJSON features into buffers
